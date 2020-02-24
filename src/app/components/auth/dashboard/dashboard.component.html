@@ -1,1 +1,29 @@
-<p>dashboard works!</p>
+<div class="container">
+  <div class="row" style="padding: 10px;">
+    <div class="col">
+      <nav class="nav flex-column">
+        <a class="nav-link active" >Profile</a>
+        <a class="nav-link" (click)="authService.SignOut()">Log Out</a>
+      </nav>
+    </div>
+    <div class="col-8" *ngIf="authService.userDBdata as user">
+      <img src="{{(user.photoURL) ? user.photoURL :'../../../../assets/images/dummy-user.png'}}" style="width: 100px; height: 100px;" class="img-thumbnail">
+      <form>
+        <div class="form-group" style="margin-top: 5px;">
+          <label for="exampleFormControlFile1">Upload new picture</label>
+          <input type="file" class="form-control-file" id="ProfilePicture" (change)="onUpdatePhoto($event)">
+        </div>
+      </form>
+      <div class="media-body">
+        <h1>Hello: <strong>{{(user.displayName) ? user.displayName : 'User'}}</strong></h1>
+        <p>User ID: <strong>{{user.uid}}</strong></p>
+        <p>Email: <strong>{{user.email}}</strong></p>
+        <p>Email Verified: <strong>{{user.emailVerified}}</strong></p>
+      </div>  
+    </div>
+  </div>
+</div>
+
+
+
+

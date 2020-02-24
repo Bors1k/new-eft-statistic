@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from 'src/app/services/auth/auth.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
 
-  constructor() { }
+  file: File;
+
+  constructor(public authService: AuthService) { }
 
   ngOnInit(): void {
   }
 
+  onUpdatePhoto(event){
+    this.authService.onUploadPhoto(event.target.files[0]);
+  }
 }

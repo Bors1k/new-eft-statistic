@@ -10,6 +10,13 @@ import { ViryfEmailComponent } from './components/auth/viryf-email/viryf-email.c
 import { BodyHitsComponent } from './components/body-hits/body-hits.component';
 import { ForgotPasswordComponent } from './components/auth/forgot-password/forgot-password.component';
 
+import { AngularFireAuthModule } from '@angular/fire/auth';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireModule  } from '@angular/fire';
+import { AngularFireStorageModule } from '@angular/fire/storage'
+import { environment } from 'src/environments/environment';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +29,11 @@ import { ForgotPasswordComponent } from './components/auth/forgot-password/forgo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFirestoreModule,
+    AngularFireAuthModule,
+    AngularFireStorageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
