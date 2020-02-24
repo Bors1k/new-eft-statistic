@@ -51,7 +51,7 @@ export class AuthService {
         })
       }
       catch(err){
-        console.log(err);
+        console.log('Приложение хочет получить получить по id инфу по профилю из базы данных. Но из-за того, что локально ничего не храниться выдает ошибку. Ибо я кривой и не знаю как подругому');
       }
       
     } 
@@ -83,7 +83,7 @@ export class AuthService {
     })
   }
 
-   async onUploadPhoto(file: File){
+   async onUploadPhoto(file: File){ //загрузка картинки в профиль
     var storageRef = firebase.storage().ref();
     
     var mountainImagesRef = storageRef.child(`${this.userDBdata.uid}/ProfilePhoto.jpg`);
