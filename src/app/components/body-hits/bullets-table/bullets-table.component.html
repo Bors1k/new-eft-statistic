@@ -1,0 +1,57 @@
+<div class="container">
+    <div style="text-align: center; font-size: large; font-weight: 500; margin: 10px 0 10px 0;">Using now</div>
+    <table class="table table-striped table-dark bulletsTable">
+        <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Calibre</th>
+              <th scope="col">Type</th>
+              <th scope="col">PenetrationValue</th>
+              <th scope="col">Damage</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="bg-primary">
+                <th scope="row" >{{UsingBullet.id}}</th>
+                <td>{{UsingBullet.Calibre}}</td>
+                <td>{{UsingBullet.Type}}</td>
+                <td>{{UsingBullet.PenetrationValue}}</td>
+                <td>{{UsingBullet.Damage}}</td>
+             </tr>
+        </tbody>
+    </table>
+    <div style="text-align: center; font-size: large; font-weight: 500; margin: 10px 0 10px 0;">List of bullets</div>
+  
+    <select class="custom-select" style="width: auto" [(ngModel)]="pageSize">
+      <option [ngValue]="10">10 items per page</option>
+      <option [ngValue]="25">25 items per page</option>
+      <option [ngValue]="50">50 items per page</option>
+      <option [ngValue]="100">100 items per page</option>
+    </select>
+    
+    <table class="table table-striped table-dark bulletsTable">
+      <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Calibre</th>
+        <th scope="col">Type</th>
+        <th scope="col">Penetration Value</th>
+        <th scope="col">Damage</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let bullet of bullets" (click)="onClick($event, bullet)">
+        <th scope="row">{{ bullet.id }}</th>
+        <td>{{ bullet.Calibre }} </td>
+        <td>{{ bullet.Type}}</td>
+        <td>{{ bullet.PenetrationValue}}</td>
+        <td>{{ bullet.Damage}}</td>
+      </tr>
+      </tbody>
+    </table>
+    
+    <div class="d-flex justify-content-between p-2">
+      <ngb-pagination [collectionSize]="collectionSize" [(page)]="page" [pageSize]="pageSize">
+      </ngb-pagination>
+    </div>
+  </div>

@@ -1,0 +1,21 @@
+.unselectable {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                    not supported by any browser */
+  }
+
+  .BodyPartsLabel{
+    text-align: center; 
+    background-color: black; 
+    color: white; 
+  }
+  .ramka{
+    border-radius: 10px 10px 0 0;
+    border-color: black; 
+    border-width: 4px; 
+    border-style: solid;
+  }

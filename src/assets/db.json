@@ -1,0 +1,830 @@
+[
+    {
+    "Type": "B-32",
+    "Calibre": "12.7x108 mm",
+    "PenetrationValue": 88,
+    "Damage": 182
+    },
+    {
+    "Type": "BZT-44M",
+    "Calibre": "12.7x108 mm",
+    "PenetrationValue": 80,
+    "Damage": 199
+    },
+
+
+
+
+
+    {
+    "Type": "PS12",
+    "Calibre": "12.7x55 mm",
+    "PenetrationValue": 28,
+    "Damage": 115 
+    },
+    {
+    "Type": "PS12A",
+    "Calibre": "12.7x55 mm",
+    "PenetrationValue": 10,
+    "Damage": 165
+    },
+    {
+    "Type": "PS12B",
+    "Calibre": "12.7x55 mm",
+    "PenetrationValue": 46,
+    "Damage": 102
+    },
+
+
+
+
+
+
+
+
+
+    {
+    "Type": "7mm Buckshot",
+    "Calibre": "12/70",
+    "PenetrationValue": 3,
+    "Damage": 32
+    },
+    {
+    "Type": "5.25mm Buckshot",
+    "Calibre": "12/70",
+    "PenetrationValue": 1,
+    "Damage": 34
+    },
+    {
+    "Type": "6.5 mm 'Express'",
+    "Calibre": "12/70",
+    "PenetrationValue": 3,
+    "Damage": 29
+    },
+    {
+    "Type": "8.5 mm 'Magnum'",
+    "Calibre": "12/70",
+    "PenetrationValue": 2,
+    "Damage": 44
+    },
+    {
+    "Type": "Dual Sabot Slug",
+    "Calibre": "12/70",
+    "PenetrationValue": 17,
+    "Damage": 75
+    },
+    {
+    "Type": "Flechette",
+    "Calibre": "12/70",
+    "PenetrationValue": 28,
+    "Damage": 19
+    },
+    {
+    "Type": "RIP",
+    "Calibre": "12/70",
+    "PenetrationValue": 0,
+    "Damage": 235 
+    },
+    {
+    "Type": "Led slug",
+    "Calibre": "12/70",
+    "PenetrationValue": 15,
+    "Damage": 147
+    },
+    {
+    "Type": "shell with .50 BMG bullet",
+    "Calibre": "12/70",
+    "PenetrationValue": 23,
+    "Damage": 177
+    },
+    {
+    "Type": "AP-20 Slug",
+    "Calibre": "12/70",
+    "PenetrationValue": 32,
+    "Damage": 164 
+    },
+    {
+    "Type": "FTX Custom LIte Slug",
+    "Calibre": "12/70",
+    "PenetrationValue": 18,
+    "Damage": 153
+    },
+    {
+    "Type": "Grizzly 40 Slug",
+    "Calibre": "12/70",
+    "PenetrationValue": 12,
+    "Damage": 170
+    },
+    {
+    "Type": "HP Slug Copper Sabot Premier",
+    "Calibre": "12/70",
+    "PenetrationValue": 13,
+    "Damage": 160
+    },
+    {
+    "Type": "'Poleva-3' Slug",
+    "Calibre": "12/70",
+    "PenetrationValue": 17,
+    "Damage": 130
+    },
+    {
+    "Type": "'Poleva-6u' Slug",
+    "Calibre": "12/70",
+    "PenetrationValue": 20,
+    "Damage": 140
+    },
+    {
+    "Type": "HP Slug 'SuperFormance'",
+    "Calibre": "12/70",
+    "PenetrationValue": 2,
+    "Damage": 190
+    }
+
+
+    
+
+    ,
+    {
+    "Type": "7.5mm Buckshot",
+    "Calibre": "20/70",
+    "PenetrationValue": 3,
+    "Damage": 24
+    },
+    {
+    "Type": "5.6mm Buckshot",
+    "Calibre": "20/70",
+    "PenetrationValue": 1,
+    "Damage": 25
+    },
+    {
+    "Type": "6.2mm Buckshot",
+    "Calibre": "20/70",
+    "PenetrationValue": 2,
+    "Damage": 21
+    },
+    {
+    "Type": "7.3mm Buckshot",
+    "Calibre": "20/70",
+    "PenetrationValue": 3,
+    "Damage": 22
+    },
+    {
+    "Type": "Devastator Slug",
+    "Calibre": "20/70",
+    "PenetrationValue": 4,
+    "Damage": 188
+    },
+    {
+    "Type": "Slug 'Poleva-3'",
+    "Calibre": "20/70",
+    "PenetrationValue": 14,
+    "Damage": 110
+    },
+    {
+    "Type": "Slug 'Poleva-6u'",
+    "Calibre": "20/70",
+    "PenetrationValue": 17,
+    "Damage": 120
+    },
+    {
+    "Type": "Star Slug",
+    "Calibre": "20/70",
+    "PenetrationValue": 16,
+    "Damage": 134
+    },
+
+
+
+
+
+    {
+    "Type": "EKO",
+    "Calibre": ".366 ТКМ",
+    "PenetrationValue": 30,
+    "Damage": 65
+    },
+    {
+    "Type": "FMJ",
+    "Calibre":".366 ТКМ",
+    "PenetrationValue": 20,
+    "Damage": 73
+    },
+    {
+    "Type": "Geksa",
+    "Calibre":".366 ТКМ",
+    "PenetrationValue": 14,
+    "Damage": 80
+    }
+
+
+
+    ,
+    {
+    "Type": "Action SX",
+    "Calibre":"4.6x30mm",
+    "PenetrationValue": 13,
+    "Damage": 65
+    },
+    {
+    "Type": "AP SX",
+    "Calibre":"4.6x30mm",
+    "PenetrationValue": 47,
+    "Damage": 35
+    },
+    {
+    "Type": "FMJ SX",
+    "Calibre":"4.6x30mm",
+    "PenetrationValue": 30,
+    "Damage": 43
+    },
+    {
+    "Type": "Subsonic SX",
+    "Calibre":"4.6x30mm",
+    "PenetrationValue": 34,
+    "Damage": 41
+    }
+
+
+
+    ,
+    {
+    "Type": "7N39 'Igolnik'",
+    "Calibre":"5.45x39 mm",
+    "PenetrationValue": 62,
+    "Damage": 37
+    },
+    {
+    "Type": "BP",
+    "Calibre":"5.45x39 mm",
+    "PenetrationValue": 32,
+    "Damage": 48
+    },
+    {
+    "Type": "BS",
+    "Calibre":"5.45x39 mm",
+    "PenetrationValue": 51,
+    "Damage": 40
+    },
+    {
+    "Type": "BT",
+    "Calibre":"5.45x39 mm",
+    "PenetrationValue": 37,
+    "Damage": 44
+    },
+    {
+    "Type": "FMJ",
+    "Calibre":"5.45x39 mm",
+    "PenetrationValue": 20,
+    "Damage": 54
+    },
+    {
+    "Type": "HP",
+    "Calibre":"5.45x39 mm",
+    "PenetrationValue": 11,
+    "Damage": 74
+    },
+    {
+    "Type": "PP",
+    "Calibre":"5.45x39 mm",
+    "PenetrationValue": 30,
+    "Damage": 46
+    },
+    {
+    "Type": "PRS",
+    "Calibre":"5.45x39 mm",
+    "PenetrationValue": 14,
+    "Damage": 60
+    },
+    {
+    "Type": "PS",
+    "Calibre":"5.45x39 mm",
+    "PenetrationValue": 25,
+    "Damage": 50
+    },
+    {
+    "Type": "SP",
+    "Calibre":"5.45x39 mm",
+    "PenetrationValue": 11,
+    "Damage": 68
+    },
+    {
+    "Type": "T",
+    "Calibre":"5.45x39 mm",
+    "PenetrationValue": 20,
+    "Damage": 57
+    },
+    {
+    "Type": "US",
+    "Calibre":"5.45x39 mm",
+    "PenetrationValue": 15,
+    "Damage": 65
+    }
+
+
+
+    ,
+    {
+    "Type": "55 FMJ",
+    "Calibre":"5.56x45 mm",
+    "PenetrationValue": 24,
+    "Damage": 52
+    }
+    ,
+    {
+    "Type": "55 HP",
+    "Calibre":"5.56x45 mm",
+    "PenetrationValue": 9,
+    "Damage": 72
+    }
+    ,
+    {
+    "Type": "M855",
+    "Calibre":"5.56x45 mm",
+    "PenetrationValue": 26,
+    "Damage": 49
+    },
+    {
+    "Type": "M855A1",
+    "Calibre":"5.56x45 mm",
+    "PenetrationValue": 40,
+    "Damage": 44
+    }
+    ,
+    {
+    "Type": "M856",
+    "Calibre":"5.56x45 mm",
+    "PenetrationValue": 23,
+    "Damage": 55
+    }
+    ,
+    {
+    "Type": "M856A1",
+    "Calibre":"5.56x45 mm",
+    "PenetrationValue": 37,
+    "Damage": 51
+    },
+    {
+    "Type": "M995",
+    "Calibre":"5.56x45 mm",
+    "PenetrationValue": 53,
+    "Damage": 41
+    }
+    ,
+    {
+    "Type": "Mk 255 Mod 0",
+    "Calibre":"5.56x45 mm",
+    "PenetrationValue": 17,
+    "Damage": 60
+    }
+    ,
+    {
+    "Type": "Warmage",
+    "Calibre":"5.56x45 mm",
+    "PenetrationValue": 3,
+    "Damage": 85
+    }
+
+
+
+    ,
+    {
+        "Type": "L191",
+        "Calibre":"5.7x28 mm",
+        "PenetrationValue": 33,
+        "Damage": 58
+    }
+    ,
+    {
+        "Type": "L191",
+        "Calibre":"5.7x28 mm",
+        "PenetrationValue": 33,
+        "Damage": 58
+    }
+    ,
+    {
+        "Type": "R37.F",
+        "Calibre":"5.7x28 mm",
+        "PenetrationValue": 8,
+        "Damage": 98
+    }
+    ,
+    {
+        "Type": "R37.X",
+        "Calibre":"5.7x28 mm",
+        "PenetrationValue": 11,
+        "Damage": 81
+    }
+    ,
+    {
+        "Type": "SB193",
+        "Calibre":"5.7x28 mm",
+        "PenetrationValue": 35,
+        "Damage": 54
+    }
+    ,
+    {
+        "Type": "SS190",
+        "Calibre":"5.7x28 mm",
+        "PenetrationValue": 32,
+        "Damage": 57
+    }
+    ,
+    {
+        "Type": "SS197SR",
+        "Calibre":"5.7x28 mm",
+        "PenetrationValue": 20,
+        "Damage": 62
+    }
+    ,
+    {
+        "Type": "SS198LF",
+        "Calibre":"5.7x28 mm",
+        "PenetrationValue": 10,
+        "Damage": 74
+    }
+
+
+
+    ,
+    {
+        "Type": "TT AKBS",
+        "Calibre":"7.62x25 mm",
+        "PenetrationValue": 9,
+        "Damage": 58
+    }
+    ,
+    {
+        "Type": "TT FMJ43",
+        "Calibre":"7.62x25 mm",
+        "PenetrationValue": 8,
+        "Damage": 60
+    }
+    ,
+    {
+        "Type": "TT LRN",
+        "Calibre":"7.62x25 mm",
+        "PenetrationValue": 6,
+        "Damage": 64
+    }
+    ,
+    {
+        "Type": "TT LRNPC",
+        "Calibre":"7.62x25 mm",
+        "PenetrationValue": 5,
+        "Damage": 66
+    }
+    ,
+    {
+        "Type": "TT P gl",
+        "Calibre":"7.62x25 mm",
+        "PenetrationValue": 10,
+        "Damage": 58
+    }
+    ,
+    {
+        "Type": "TT Pst gzh",
+        "Calibre":"7.62x25 mm",
+        "PenetrationValue": 24,
+        "Damage": 50
+    }
+    ,
+    {
+        "Type": "TT PT gzh",
+        "Calibre":"7.62x25 mm",
+        "PenetrationValue": 12,
+        "Damage": 60
+    }
+
+
+
+    ,
+    {
+        "Type": "BP",
+        "Calibre":"7.62x39 mm",
+        "PenetrationValue": 47,
+        "Damage": 58
+    }
+    ,
+    {
+        "Type": "HP",
+        "Calibre":"7.62x39 mm",
+        "PenetrationValue": 15,
+        "Damage": 83
+    }
+    ,
+    {
+        "Type": "PS",
+        "Calibre":"7.62x39 mm",
+        "PenetrationValue": 34,
+        "Damage": 54
+    }
+    ,
+    {
+        "Type": "T45M",
+        "Calibre":"7.62x39 mm",
+        "PenetrationValue": 31,
+        "Damage": 62
+    }
+    ,
+    {
+        "Type": "US",
+        "Calibre":"7.62x39 mm",
+        "PenetrationValue": 29,
+        "Damage": 56
+    }
+
+
+
+    ,
+    {
+        "Type": "BPZ FMJ",
+        "Calibre":"7.62x51 mm",
+        "PenetrationValue": 31,
+        "Damage": 88
+    }
+    ,
+    {
+        "Type": "M61",
+        "Calibre":"7.62x51 mm",
+        "PenetrationValue": 68,
+        "Damage": 70
+    }
+    ,
+    {
+        "Type": "M62",
+        "Calibre":"7.62x51 mm",
+        "PenetrationValue": 54,
+        "Damage": 79
+    }
+    ,
+    {
+        "Type": "M80",
+        "Calibre":"7.62x51 mm",
+        "PenetrationValue": 41,
+        "Damage": 80
+    }
+    ,
+    {
+        "Type": "TPZ SP",
+        "Calibre":"7.62x51 mm",
+        "PenetrationValue": 36,
+        "Damage": 60
+    }
+    ,
+    {
+        "Type": "Ultra Nosler",
+        "Calibre":"7.62x51 mm",
+        "PenetrationValue": 15,
+        "Damage": 102
+    }
+
+
+
+    ,
+    {
+        "Type": "7BT1",
+        "Calibre":"7.62x54R mm",
+        "PenetrationValue": 59,
+        "Damage": 78
+    }
+    ,
+    {
+        "Type": "7N37",
+        "Calibre":"7.62x54R mm",
+        "PenetrationValue": 70,
+        "Damage": 72
+    }
+    ,
+    {
+        "Type": "T-46M",
+        "Calibre":"7.62x54R mm",
+        "PenetrationValue": 41,
+        "Damage": 82
+    }
+    ,
+    {
+        "Type": "7N1 Sniper cartridge",
+        "Calibre":"7.62x54R mm",
+        "PenetrationValue": 45,
+        "Damage": 86
+    }
+    ,
+    {
+        "Type": ":PS Gzh",
+        "Calibre":"7.62x54R mm",
+        "PenetrationValue": 42,
+        "Damage": 81
+    }
+    ,
+    {
+        "Type": "SNB",
+        "Calibre":"7.62x54R mm",
+        "PenetrationValue": 62,
+        "Damage": 75
+    }
+
+
+    ,
+    {
+        "Type": "PM 9 BZT gzh",
+        "Calibre":"9x18 mm",
+        "PenetrationValue": 16,
+        "Damage": 55
+    }
+    ,
+    {
+        "Type": "PM 9 P gzh",
+        "Calibre":"9x18 mm",
+        "PenetrationValue": 5,
+        "Damage": 50
+    }
+    ,
+    {
+        "Type": "PM 9 PBM",
+        "Calibre":"9x18 mm",
+        "PenetrationValue": 22,
+        "Damage": 44
+    }
+    ,
+    {
+        "Type": "PM 9 PMM",
+        "Calibre":"9x18 mm",
+        "PenetrationValue": 25,
+        "Damage": 56
+    }
+    ,
+    {
+        "Type": "PM 9 PPe gzh",
+        "Calibre":"9x18 mm",
+        "PenetrationValue": 7,
+        "Damage": 61
+    }
+    ,
+    {
+        "Type": "PM 9 PPT gzh",
+        "Calibre":"9x18 mm",
+        "PenetrationValue": 8,
+        "Damage": 59
+    }
+    ,
+    {
+        "Type": "PM 9 PRS gs",
+        "Calibre":"9x18 mm",
+        "PenetrationValue": 6,
+        "Damage": 58
+    }
+    ,
+    {
+        "Type": "PM 9 PS gs PPO",
+        "Calibre":"9x18 mm",
+        "PenetrationValue": 6,
+        "Damage": 55
+    }
+    ,
+    {
+        "Type": "PM 9 PSO gzh",
+        "Calibre":"9x18 mm",
+        "PenetrationValue": 5,
+        "Damage": 54
+    }
+    ,
+    {
+        "Type": "PM 9 Pst gzh",
+        "Calibre":"9x18 mm",
+        "PenetrationValue": 12,
+        "Damage": 50
+    }
+    ,
+    {
+        "Type": "PM 9 PSV",
+        "Calibre":"9x18 mm",
+        "PenetrationValue": 3,
+        "Damage": 69
+    }
+    ,
+    {
+        "Type": "PM 9 TG028 gzh",
+        "Calibre":"9x18 mm",
+        "PenetrationValue": 13,
+        "Damage": 65
+    }
+    ,
+    {
+        "Type": "PM 9 SP7 gzh",
+        "Calibre":"9x18 mm",
+        "PenetrationValue": 2,
+        "Damage": 77
+    }
+    ,
+    {
+        "Type": "PM 9 SP8 gzh",
+        "Calibre":"9x18 mm",
+        "PenetrationValue": 1,
+        "Damage": 67
+    }
+
+
+
+    ,
+    {
+        "Type": "AP 6.3",
+        "Calibre":"9x19 mm",
+        "PenetrationValue": 25,
+        "Damage": 52
+    }
+    ,
+    {
+        "Type": "Green Tracer",
+        "Calibre":"9x19 mm",
+        "PenetrationValue": 14,
+        "Damage": 58
+    }
+    ,
+    {
+        "Type": "Luger CCI",
+        "Calibre":"9x19 mm",
+        "PenetrationValue": 10,
+        "Damage": 70
+    }
+    ,
+    {
+        "Type": "PSO gzh",
+        "Calibre":"9x19 mm",
+        "PenetrationValue": 10,
+        "Damage": 56
+    }
+    ,
+    {
+        "Type": "Pst gzh",
+        "Calibre":"9x19 mm",
+        "PenetrationValue": 18,
+        "Damage": 54
+    }
+    ,
+    {
+        "Type": "RIP",
+        "Calibre":"9x19 mm",
+        "PenetrationValue": 2,
+        "Damage": 102
+    }
+
+
+    ,
+    {
+        "Type": "SP10",
+        "Calibre":"9x21 mm",
+        "PenetrationValue": 32,
+        "Damage": 49
+    }
+    ,
+    {
+        "Type": "SP11",
+        "Calibre":"9x21 mm",
+        "PenetrationValue": 16,
+        "Damage": 70
+    }
+    ,
+    {
+        "Type": "SP12",
+        "Calibre":"9x21 mm",
+        "PenetrationValue": 14,
+        "Damage": 75
+    }
+    ,
+    {
+        "Type": "SP13",
+        "Calibre":"9x21 mm",
+        "PenetrationValue": 36,
+        "Damage": 62
+    }
+
+
+    ,
+    {
+        "Type": "7N12 BP",
+        "Calibre":"9x39 mm",
+        "PenetrationValue": 50,
+        "Damage": 60
+    }
+    ,
+    {
+        "Type": "SP-5",
+        "Calibre":"9x39 mm",
+        "PenetrationValue": 35,
+        "Damage": 68
+    }
+    ,
+    {
+        "Type": "SP-6",
+        "Calibre":"9x39 mm",
+        "PenetrationValue": 43,
+        "Damage": 58
+    }
+    ,
+    {
+        "Type": "7N9 SPP",
+        "Calibre":"9x39 mm",
+        "PenetrationValue": 45,
+        "Damage": 67
+    }
+]

@@ -1,7 +1,7 @@
 import { Injectable, NgZone } from '@angular/core';
-import { auth } from 'firebase/app';
 import { AngularFireAuth } from "@angular/fire/auth";
 import { AngularFirestore, AngularFirestoreDocument } from '@angular/fire/firestore';
+import * as ShelterMaterials from 'src/assets/ShelterMaterials.json';
 import * as firebase from 'firebase/app';
 import "@angular/fire/storage";
 
@@ -17,13 +17,13 @@ export class AuthService {
   userData: any;
   userDBdata: any;
   timeout: number = 5;  
+  isLogged: boolean = false;
 
   constructor(
     public afs: AngularFirestore,   // Inject Firestore service
     public afAuth: AngularFireAuth, // Inject Firebase auth service
     public router: Router,  
     public ngZone: NgZone // NgZone service to remove outside scope warning
-  //  public firestorage: AngularFireStorage
     )
 
     {
@@ -32,10 +32,13 @@ export class AuthService {
           this.userData = user;
           localStorage.setItem('user',JSON.stringify(this.userData));
           JSON.parse(localStorage.getItem('user'));
+          this.isLogged = true;
+          this.router.navigate(["/dashboard"]);
         }
         else{
           localStorage.setItem('user',null);
           JSON.parse(localStorage.getItem('user'));
+          this.isLogged = false;
         }
       })
 
@@ -67,7 +70,13 @@ export class AuthService {
         photoURL: result.user.photoURL,
         emailVerified: result.user.emailVerified
       }
+
       this.SetUserData(localUser);
+
+       (ShelterMaterials as any).default.forEach(material => { //добавление материалов в базу данных
+         this.afs.collection('users').doc(`${result.user.uid}`).collection('ubezh').add(material);  
+       });
+
     }).catch((error)=>{
       window.alert(error.message);
     })
@@ -76,9 +85,11 @@ export class AuthService {
   SendVerificationMail(){
     return this.afAuth.auth.currentUser.sendEmailVerification()
     .then(() => {
+      this.isLogged = false;
       this.router.navigate(['veryf-email']);
       setTimeout(()=>{
-        this.router.navigate(['']);
+        this.isLogged = true;
+        this.router.navigate(['dashboard']);
       },5000)
     })
   }
@@ -114,19 +125,29 @@ export class AuthService {
     })
   }
 
-  onSignIn(email, password) {
+   onSignIn(email, password) {
     return this.afAuth.auth.signInWithEmailAndPassword(email, password)
       .then((result) => {
         this.ngZone.run(() => {
           this.router.navigate(['dashboard']);
         });
+
+        // let getUbezh = this.afs.collection('users').doc(`${result.user.uid}`).collection('ubezh').get().toPromise()
+        // .then(snapshot => {
+        //   snapshot.forEach(doc => {
+        //     console.log(doc.id, '=>', doc.data());
+        //   })
+        // });
+
         let getDoc = this.afs.collection('users').doc(`${result.user.uid}`).get().toPromise()
         .then(doc=>{
           if (!doc.exists) {
             console.log('No such document!');
           } else {
+            this.isLogged = true;
             this.userDBdata = doc.data();
-            this.SetUserData(doc.data());
+            this.userDBdata.emailVerified = result.user.emailVerified;
+            this.SetUserData(this.userDBdata);
           }
         })
          
@@ -138,6 +159,7 @@ export class AuthService {
   SignOut() {
     return this.afAuth.auth.signOut().then(() => {
       localStorage.removeItem('user');
+      this.isLogged = false;
       this.router.navigate(['']);
     })
   }

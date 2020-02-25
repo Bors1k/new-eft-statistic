@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,11 +11,16 @@ import { ViryfEmailComponent } from './components/auth/viryf-email/viryf-email.c
 import { BodyHitsComponent } from './components/body-hits/body-hits.component';
 import { ForgotPasswordComponent } from './components/auth/forgot-password/forgot-password.component';
 
+import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BulletsTableComponent } from './components/body-hits/bullets-table/bullets-table.component';
+
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireModule  } from '@angular/fire';
 import { AngularFireStorageModule } from '@angular/fire/storage'
 import { environment } from 'src/environments/environment';
+
 
 
 @NgModule({
@@ -25,7 +31,8 @@ import { environment } from 'src/environments/environment';
     DashboardComponent,
     ViryfEmailComponent,
     BodyHitsComponent,
-    ForgotPasswordComponent
+    ForgotPasswordComponent,
+    BulletsTableComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +40,10 @@ import { environment } from 'src/environments/environment';
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule,
     AngularFireAuthModule,
-    AngularFireStorageModule
+    AngularFireStorageModule,
+    ProgressbarModule.forRoot(),
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

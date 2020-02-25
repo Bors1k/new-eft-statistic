@@ -1,1 +1,65 @@
-<p>body-hits works!</p>
+<div class="container" style="margin-top: 20px;">
+    <div class="mb-2 ramka">
+      <div class="container BodyPartsLabel unselectable" (click)="onGetDamage($event,0)">Head</div>
+      <progressbar max="35" [value]="BodyParts[0]" [type]="StyleArr[0]" [striped]="true" (click)="onGetDamage($event,0)" style="border-radius: 0px; background-color: black;"><i class="unselectable" style="color: black; font-size: large; font-weight: 500;">{{BodyParts[0]}} / 35</i></progressbar>
+    </div>
+  </div>
+  <div class="container"> 
+      <div class="mb-2 ramka">
+      <div class="container BodyPartsLabel unselectable" (click)="onGetDamage($event,1)">Thorax</div> 
+      <progressbar max="80" [value]="BodyParts[1]" [type]="StyleArr[1]" [striped]="true" (click)="onGetDamage($event,1)" style="border-radius: 0px; background-color: black;"><i class="unselectable" style="color: black; font-size: large; font-weight: 500;">{{BodyParts[1]}} / 80</i></progressbar>
+    </div> 
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="ramka">
+        <div class="container BodyPartsLabel unselectable" (click)="onGetDamage($event,4)">Right Hand</div> 
+        <progressbar max="60" [value]="BodyParts[4]" [type]="StyleArr[4]" [striped]="true" (click)="onGetDamage($event,4)" style="border-radius: 0px; background-color: black;"><i class="unselectable" style="color: black; font-size: large; font-weight: 500;">{{BodyParts[4]}} / 60</i></progressbar>
+        </div>  
+      </div>
+      <div class="col-sm">
+      <div class="ramka">
+      <div class="container BodyPartsLabel unselectable" (click)="onGetDamage($event,2)">Stomach</div> 
+      <progressbar max="70" [value]="BodyParts[2]" [type]="StyleArr[2]" [striped]="true"  (click)="onGetDamage($event,2)" style="border-radius: 0px; background-color: black;"><i class="unselectable" style="color: black; font-size: large; font-weight: 500;">{{BodyParts[2]}} / 70</i></progressbar>
+      </div>
+      </div>  
+      <div class="col-sm">
+        <div class="ramka">
+        <div class="container BodyPartsLabel unselectable" (click)="onGetDamage($event,3)">Left Hand</div> 
+        <progressbar max="60" [value]="BodyParts[3]" [type]="StyleArr[3]" [striped]="true"  (click)="onGetDamage($event,3)" style="border-radius: 0px; background-color: black;"><i class="unselectable" style="color: black; font-size: large; font-weight: 500;">{{BodyParts[3]}} / 60</i></progressbar>
+      </div>
+    </div>  
+    </div> 
+  </div>
+  <div class="container" style="margin-top: 10px;">
+    <div class="row">
+      <div class="col-sm">
+        <div class="ramka">
+        <div class="container BodyPartsLabel unselectable" (click)="onGetDamage($event,6)">Right leg</div> 
+        <progressbar max="65" [value]="BodyParts[6]" [type]="StyleArr[6]" [striped]="true" (click)="onGetDamage($event,6)" style="border-radius: 0px; background-color: black;"><i class="unselectable" style="color: black; font-size: large; font-weight: 500;">{{BodyParts[6]}} / 65</i></progressbar>
+      </div>
+    </div>  
+      <div class="col-sm">
+  
+      </div>
+      <div class="col-sm">
+        <div class="ramka">
+        <div class="container BodyPartsLabel unselectable" (click)="onGetDamage($event,5)">Left leg</div> 
+        <progressbar max="65" [value]="BodyParts[5]" [type]="StyleArr[5]" [striped]="true"  (click)="onGetDamage($event,5)" style="border-radius: 0px; background-color: black;"><i class="unselectable" style="color: black; font-size: large; font-weight: 500;">{{BodyParts[5]}} / 65</i></progressbar>
+        </div>  
+      </div>
+    </div> 
+  </div>
+  
+  <div class="container" style="text-align: center; background-color: black; width:fit-content; font-size: large; font-weight: 500;"><i style="color: green;">{{HealthPoints}}</i> / <i style="color: green;">435</i></div>
+  
+  
+  
+  <div class="container">
+    <button type="button" class="btn btn-danger col align-self-center" (click)="onRestore()" style="margin-top: 30px; margin-bottom: 10px;">Restore</button>
+  </div>
+  <div class="container">
+    <app-bullets-table (messageEvent)="updateDamage($event)"></app-bullets-table>
+  </div>
+  
