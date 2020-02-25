@@ -1,73 +1,315 @@
 [
     {
-        "name": "Lion",
+        "name": "Analog thermometer",
         "need_count": 2,
-        "have_count": 0
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Anal_Thermometer_Icon.png"
     },
     {
-        "name": "Roler",
-        "need_count": 3,
-        "have_count": 0
+        "name": "A pack of nails",
+        "need_count": 4,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Nailsicon.png"
     },
     {
-        "name": "Golden Chainlet",
-        "need_count": 0,
-        "have_count": 0
+        "name": "Bolts",
+        "need_count": 18,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Boltsicon.png"
     },
     {
         "name": "Hose",
         "need_count": 26,
-        "have_count": 0
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Hoseicon.png"
     },
     {
-        "name": "",
-        "need_count": 0,
-        "have_count": 0
+        "name": "Duct tape",
+        "need_count": 6,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Duct_tape_Icon.png"
     },
     {
-        "name": "",
-        "need_count": 0,
-        "have_count": 0
+        "name": "Electric drill",
+        "need_count": 6,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Electric_Drill_icon.png"
     },
     {
-        "name": "",
-        "need_count": 0,
-        "have_count": 0
+        "name": "Electric motor",
+        "need_count": 9,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Electric_motor_icon.png"
     },
     {
-        "name": "",
-        "need_count": 0,
-        "have_count": 0
+        "name": "Heat-exchange alkali surface washer",
+        "need_count": 2,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Heat-exchange_alkali_surface_washer_icon.png"
     },
     {
-        "name": "",
-        "need_count": 0,
-        "have_count": 0
+        "name": "Multitool",
+        "need_count": 1,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Multitoolicon.png"
     },
     {
-        "name": "",
-        "need_count": 0,
-        "have_count": 0
+        "name": "Light bulb",
+        "need_count": 14,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Bulb_icon.png"
     },
     {
-        "name": "",
-        "need_count": 0,
-        "have_count": 0
+        "name": "Pressure gauge",
+        "need_count": 6,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Pressure_gauge_icon.png"
     },
     {
-        "name": "",
-        "need_count": 0,
-        "have_count": 0
+        "name": "Radiator helix",
+        "need_count": 8,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/RadiatorHelixIcon.png"
     },
     {
-        "name": "",
-        "need_count": 0,
-        "have_count": 0
+        "name": "Screw nut",
+        "need_count": 12,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Screwnuticon.png"
     },
     {
-        "name": "",
-        "need_count": 0,
-        "have_count": 0
+        "name": "A pack of screws",
+        "need_count": 20,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Screwsicon.png"
+    },
+    {
+        "name": "A set of tools",
+        "need_count": 6,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Toolsicon.png"
+    },
+    {
+        "name": "Silicone tube",
+        "need_count": 14,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/SiliconeTubeIcon.png"
+    },
+    {
+        "name": "Wrench",
+        "need_count": 4,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Wrench_Icon.png"
+    },
+    {
+        "name": "Pliers Elite",
+        "need_count": 4,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/PliersElite.png"
+    },
+    {
+        "name": "FireKlean gun lube",
+        "need_count": 1,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/FireKlean_icon.png"
+    },
+    {
+        "name": "Spark plug",
+        "need_count": 5,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Spark_Plug_Icon_.png"
+    },
+    {
+        "name": "Xenomorph sealing foam",
+        "need_count": 3,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Xenoicon.png"
+    },
+    {
+        "name": "Handdrill",
+        "need_count": 1,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Handdrill_icon.png"
+    },
+    {
+        "name": "WD-40 100ml",
+        "need_count": 4,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/WD40_100ml_Icon.png"
+    },
+    {
+        "name": "Shustrilo sealing foam",
+        "need_count": 5,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Shusicon.png"
+    },
+    {
+        "name": "CPU Fan",
+        "need_count": 50,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/CPU_Fan_Icon.png"
+    },
+    {
+        "name": "Wires",
+        "need_count": 47,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Wiresicon.png"
+    },
+    {
+        "name": "Capacitors",
+        "need_count": 12,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Capacitorsicon.png"
+    },
+    {
+        "name": "Working LCD",
+        "need_count": 2,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Working_LCD_Icon.png"
+    },
+    {
+        "name": "Car battery",
+        "need_count": 4,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Car_Battery_Icon.png"
+    },
+    {
+        "name": "NIXXOR lens",
+        "need_count": 8,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/NIXXOR_lens_icon.png"
+    },
+    {
+        "name": "Damaged hard drive",
+        "need_count": 4,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Damaged_Hard_Drive_Icon.png"
+    },
+    {
+        "name": "Military COFDM wireless Signal Transmitter",
+        "need_count": 2,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/COFDM_Icon.png"
+    },
+    {
+        "name": "Phase control relay",
+        "need_count": 16,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Relay_Icon.png"
+    },
+    {
+        "name": "VPX Flash Storage Module",
+        "need_count": 2,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/VPXFlashIcon.png"
+    },
+    {
+        "name": "Power supply unit",
+        "need_count": 15,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Psuicon.png"
+    },
+    {
+        "name": "Gas analyzer",
+        "need_count": 3,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Gas_Analyzer_Icon.png"
+    },
+    {
+        "name": "Powercord",
+        "need_count": 13,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Powercord_icon.png"
+    },
+    {
+        "name": "Military cable",
+        "need_count": 8,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/127px-MilitaryCableIcon.png"
+    },
+    {
+        "name": "Printed circuit board",
+        "need_count": 8,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Circuit_Icon.png"
+    },
+    {
+        "name": "Phased array element",
+        "need_count": 2,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Phased-Array-Element-icon.png"
+    },
+    {
+        "name": "Secure Flash drive",
+        "need_count": 3,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Secure_Flash_drive_Icon.png"
+    },
+    {
+        "name": "Military power filter",
+        "need_count": 4,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Mil_Filter_Icon.png"
+    },
+    {
+        "name": "Medical bloodset",
+        "need_count": 1,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Medical_Bloodset_Icon.png"
+    },
+    {
+        "name": "Saline solution",
+        "need_count": 8,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Saline_Solution_icon.png"
+    },
+    {
+        "name": "Coffee Majaica",
+        "need_count": 3,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/64px-Coffeicon.png"
+    },
+    {
+        "name": "Sodium bicarbonate",
+        "need_count": 3,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Sodium_Bicarbonate_icon.png"
+    },
+    {
+        "name": "LEDX Skin Transilluminator",
+        "need_count": 1,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/TransilluminatorIcon.png"
+    },
+    {
+        "name": "Bronze lion",
+        "need_count": 2,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Bronze_Lion_Icon.png"
+    },
+    {
+        "name": "Golden neck chain",
+        "need_count": 20,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Golden_neck_chain_Icon.png"
+    },
+    {
+        "name": "Gold skull ring",
+        "need_count": 2,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/SkullRing_Icon.png"
+    },
+    {
+        "name": "Folder with intelligence",
+        "need_count": 20,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/FolderWithIntelligence_Icon.png"
+    },
+    {
+        "name": "Roler submariner gold wrist watch",
+        "need_count": 20,
+        "have_count": 0,
+        "img_url": "assets/images/shelter/Roler_icon.png"
     }
 
 ]

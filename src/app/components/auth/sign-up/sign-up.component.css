@@ -1,0 +1,20 @@
+#SignUpBox{
+    color: white;
+    box-shadow: 0 0 10px black; 
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #27293D;
+}
+.btn{
+    color: white;
+    background-color: purple;
+    font-weight: 500;
+}
+input {
+    border: 2px solid purple;
+    background-color: #27293D;
+}
+img {
+    background-color: purple; 
+    border: 1px solid purple
+}

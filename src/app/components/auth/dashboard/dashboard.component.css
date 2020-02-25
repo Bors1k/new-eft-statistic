@@ -1,0 +1,13 @@
+#main {
+    background-color: #27293D;
+    color: white;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+#sidebar{
+    color: purple;
+}
+strong{
+    color: white;
+}

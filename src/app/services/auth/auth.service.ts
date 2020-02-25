@@ -29,11 +29,13 @@ export class AuthService {
     {
       this.afAuth.authState.subscribe(user=>{
         if(user){
+          if(this.router.routerState.snapshot.url == "/"){
+            this.router.navigate(["dashboard"]);
+          }
           this.userData = user;
           localStorage.setItem('user',JSON.stringify(this.userData));
           JSON.parse(localStorage.getItem('user'));
           this.isLogged = true;
-          this.router.navigate(["/dashboard"]);
         }
         else{
           localStorage.setItem('user',null);
@@ -131,13 +133,6 @@ export class AuthService {
         this.ngZone.run(() => {
           this.router.navigate(['dashboard']);
         });
-
-        // let getUbezh = this.afs.collection('users').doc(`${result.user.uid}`).collection('ubezh').get().toPromise()
-        // .then(snapshot => {
-        //   snapshot.forEach(doc => {
-        //     console.log(doc.id, '=>', doc.data());
-        //   })
-        // });
 
         let getDoc = this.afs.collection('users').doc(`${result.user.uid}`).get().toPromise()
         .then(doc=>{

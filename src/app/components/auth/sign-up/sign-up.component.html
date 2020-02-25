@@ -1,5 +1,5 @@
 <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-  <div class="row" style="box-shadow: 0 0 10px black; padding: 10px;">
+  <div class="row" id="SignUpBox">
   <div class="col">
     <img src="../../../../assets/images/escape-from-tarkov-logo.jpg" class="img-thumbnail">
   </div>
@@ -19,9 +19,9 @@
         <label for="inputAddress">Name</label>
         <input type="text" class="form-control" id="inputAddress" placeholder="Your name on site" #userName required>
       </div>
-      <button type="button" class="btn btn-primary" style="margin-bottom: 10px;" (click)="authService.onSignUp(userEmail.value,userPassword.value,userName.value)">Register</button>
+      <button type="button" class="btn" style="margin-bottom: 10px;" (click)="authService.onSignUp(userEmail.value,userPassword.value,userName.value)">Register</button>
     </form>
-    <span>Already have account? <a href="" routerLink="/">Login</a></span>
+    <span>Already have account? <a href="" routerLink="/" style="color:purple">Login</a></span>
   </div>
   </div>  
 </div>

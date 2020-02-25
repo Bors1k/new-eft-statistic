@@ -20,6 +20,7 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireModule  } from '@angular/fire';
 import { AngularFireStorageModule } from '@angular/fire/storage'
 import { environment } from 'src/environments/environment';
+import { HideoutComponent } from './components/hideout/hideout.component';
 
 
 
@@ -32,7 +33,8 @@ import { environment } from 'src/environments/environment';
     ViryfEmailComponent,
     BodyHitsComponent,
     ForgotPasswordComponent,
-    BulletsTableComponent
+    BulletsTableComponent,
+    HideoutComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light" *ngIf="authService.isLogged">
-    <a class="navbar-brand" href="#">Navbar</a>
+<nav class="navbar navbar-expand-lg" *ngIf="authService.isLogged" id="NavBar">
+    <a class="navbar-brand" routerLink="/dashboard" style="color: white;">EFT Helper</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -8,8 +8,9 @@
         <a class="nav-item nav-link" routerLink="/dashboard">Profile<span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link" routerLink="/bodyHits">BodyHits</a>
         <a class="nav-item nav-link" >Statistics</a>
-        <a class="nav-item nav-link" >Shelter</a>
+        <a class="nav-item nav-link" routerLink="/hideout">Hideout</a>
       </div>
     </div>
 </nav>
-<router-outlet></router-outlet>
+<router-outlet></router-outlet>  
+

@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container" id="main">
   <div class="row" style="padding: 10px;">
     <div class="col">
-      <nav class="nav flex-column">
+      <nav class="nav flex-column" id="sidebar">
         <a class="nav-link active" >Profile</a>
         <a class="nav-link" (click)="authService.SignOut()">Log Out</a>
       </nav>
@@ -14,7 +14,7 @@
           <input type="file" class="form-control-file" id="ProfilePicture" (change)="onUpdatePhoto($event)">
         </div>
       </form>
-      <div class="media-body">
+      <div class="media-body" style="color: purple;">
         <h1>Hello: <strong>{{(user.displayName) ? user.displayName : 'User'}}</strong></h1>
         <p>User ID: <strong>{{user.uid}}</strong></p>
         <p>Email: <strong>{{user.email}}</strong></p>
