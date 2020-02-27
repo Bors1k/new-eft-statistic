@@ -64,7 +64,7 @@ export class AuthService {
   onSignUp(email, password, name){
     return this.afAuth.auth.createUserWithEmailAndPassword(email,password)
     .then((result)=>{
-      this.SendVerificationMail();
+      this.SendVerificationMail(email,password);
       let localUser: User = {
         uid: result.user.uid,
         email: result.user.email,
@@ -84,14 +84,13 @@ export class AuthService {
     })
   }
 
-  SendVerificationMail(){
+  SendVerificationMail(email,password){
     return this.afAuth.auth.currentUser.sendEmailVerification()
     .then(() => {
       this.isLogged = false;
-      this.router.navigate(['veryf-email']);
+      this.router.navigate(['/veryf-email']);
       setTimeout(()=>{
-        this.isLogged = true;
-        this.router.navigate(['dashboard']);
+        this.onSignIn(email,password);
       },5000)
     })
   }

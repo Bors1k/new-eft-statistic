@@ -16,11 +16,11 @@ export class HideoutComponent implements OnInit {
   
 
   constructor(public shelterService: HideoutService)  { 
-
+    
   }
 
   ngOnInit(){
-    this.Items = this.shelterService.getItems();
+    this.Items = this.shelterService.onGetHideoutItems();
   }
 
   UpdateItem(item: Items){

@@ -22,7 +22,7 @@ export class HideoutService {
 
   }
 
-  onGetHideoutItems(){
+ onGetHideoutItems() : Items[]{
     this.authServise.afs.collection('users').doc(`${this.PastUID}`).collection("ubezh").get().toPromise()
     .then(snapshot => {
           snapshot.forEach(doc => {
@@ -35,6 +35,7 @@ export class HideoutService {
           });
       })
     });
+    return this.Items;
   }
 
   getItems(): Items[]{
