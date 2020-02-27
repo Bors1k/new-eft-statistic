@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from 'src/app/services/auth/auth.service';
-import { HideoutService } from 'src/app/services/hideout/hideout.service';
 import { Items } from 'src/app/interfaces/items';
 
 @Component({
@@ -13,19 +12,41 @@ export class HideoutComponent implements OnInit {
   Items: Items[];
   editState: boolean = false;
   itemToEdit: Items;
-  
 
-  constructor(public shelterService: HideoutService)  { 
-    
+
+  constructor(public authServise: AuthService)  {
+
+    this.Items = [];
+
+    this.authServise.afs.collection('users').doc(`${JSON.parse(localStorage.getItem('user')).uid}`).collection('ubezh').get().subscribe(data=>{
+      data.docs.forEach(doc=>{
+        this.Items.push({
+         id: doc.id,
+         name: doc.data().name,
+         need_count: doc.data().need_count,
+         have_count: doc.data().have_count,
+         img_url: doc.data().img_url
+        })
+      })
+    },error=>{console.log(error.message)});
   }
 
   ngOnInit(){
-    this.Items = this.shelterService.onGetHideoutItems();
+
   }
 
   UpdateItem(item: Items){
     this.onCancel();
-    this.shelterService.UpdateItem(item);  
+
+    this.authServise.afs.collection(`users`).doc(`${JSON.parse(localStorage.getItem('user')).uid}`).collection('ubezh').doc(`${item.id}`).update(
+      {
+        name: item.name,
+        need_count: item.need_count,
+        have_count: item.have_count,
+        img_url: item.img_url
+      }
+    );
+
   }
 
   onEdit(event,item){
