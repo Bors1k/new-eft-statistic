@@ -1,3 +1,6 @@
+# Status
+Проект скорее всего тоже будет заброшен, и если будет желание, то будет создан репозиторий под новый проект, где будет уже с 0 создаваться, а этот репозиторий будет просто как хранилище реализованых идей
+
 # NewEftStatistic
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
